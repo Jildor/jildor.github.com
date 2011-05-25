@@ -1,0 +1,98 @@
+.gh_bookmarklet {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 9999;
+}
+.gh_commit {
+	position: relative;
+	display: block;
+	margin: 1% auto;
+	padding: 1%;
+	
+	background-color: #0D1821;
+	border: 2px solid #3572A0;
+	border-bottom-color: #3572A0;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+
+}
+	.gh_commit a {
+		text-decoration: none;
+		color: #98C2E3;
+	}
+	
+	.gh_commit pre {
+		display: inline-block;
+		zoom: 1;
+		width: 55%;
+		padding: 2%;
+	
+		font-family: sans-serif;
+		font-size: 0.8em;
+		
+		text-transform: capitalize;
+		vertical-align: middle;
+		color: #98C2E3;
+		
+		white-space: normal;
+		line-height: 1.4em;
+	}
+	.gh_commit div.push {
+		display: inline-block;
+		zoom: 1;
+		
+		margin: 2% 2% 0 0;
+		vertical-align: middle;
+		color: #98C2E3;
+	}
+	
+	.gh_commit .push h4 a {
+		font-size: 0.8em;
+		color: #98C2E3;
+	}
+	.gh_commit .push abbr {
+		font-size: 0.7em;
+		color: #98C2E3;
+	}
+
+.gh_commit .gh_author {
+	display: block;
+	width: 90%;
+
+	margin-top: 1%;
+	text-decoration: none;
+	
+	font-size: 90%;
+	color: #98C2E3;
+}
+	.gh_commit .gh_author img {
+		display: block;
+		margin: -1% 2.5% 0 0;
+		
+		padding: 1%;
+		max-width: 70px;
+		width: 10%;
+		
+		background-color: #fff;
+		border: 1px solid #eee;
+		
+		float: left;
+	}
+
+.gh_commit .watermark {
+	display: block;
+	position: absolute;
+	
+	top: 0;
+	right: 0;
+
+	background: url(../imagenes/gitlive_logo_small.png) top center no-repeat transparent;
+	text-indent: -9999px;
+	
+	width: 53px;
+	height: 20px;
+}
