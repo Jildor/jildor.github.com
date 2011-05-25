@@ -15,19 +15,16 @@ body {
     }
 #encabezado {
 	  position: relative;
-
       margin: 0 auto;
     }
-#contenido { color: #fff; padding: 15px; 
+#contenido { color: #fff; padding: 15px;
 	  position: relative;
 	  margin: 0 10px;
-
 	}
 #logo { 
 	  position: relative;
 	  width: 50%;
-	  margin:0 auto 0 auto;
-      
+	  margin:0 auto 0 auto;	  
     }
 #download { 
 	  clear:both;
@@ -38,7 +35,6 @@ body {
     }
 #footer { clear:both;
 	  position: relative;
-
     }
 h1 { font-size: 3.8em; color: #3572A0; margin-bottom: 3px; }
 h1 .small { font-size: 0.4em; }
@@ -52,6 +48,10 @@ a { text-decoration: none; color: #3572A0; }
 .gitlive {clear:both; margin-right: 10px; float: right; width: 35%;}
 .gitclone { width: 400px; }
 .cuerpo {  margin:0 auto 0 0; width: 70% }
-pre { background: #0E1E2B; color: #fff; padding: 15px; border: 2px solid #3572A0;border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+pre { background: #0E1E2B; color: #fff; padding: 15px; border: 2px solid #3572A0;border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
 hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-.footer { text-align:center; padding-top:30px; font-style: italic; }
+.footer { font-size: 0.7em; text-decoration: none; color: #ffffff; text-align:center; padding-top:30px; }
+.footer a { text-decoration: none; color: #ffffff; }
+.footer a:link { text-decoration: none; color: #3572A0; }
+.footer a:visited { text-decoration: none; color: #3572A0; }
+.footer a:hover { text-decoration: none; color: #ffffff; }
